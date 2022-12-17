@@ -45,16 +45,7 @@ def main():
     with open(book_path) as f:
         file_contents = f.read()
 
-        #print_report(file_contents, book_path)
-
-        test = [
-            {'char': 'x', 'num': 677},
-            {'char': 'j', 'num': 504},
-            {'char': 'q', 'num': 324},
-            {'char': 'z', 'num': 243},
-        ]
-
-        print(test[1]['char'])
+        print_report(file_contents, book_path)
 
 main()
 
